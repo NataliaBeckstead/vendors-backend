@@ -1,0 +1,23 @@
+{
+  "name": "vendors-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NataliaBeckstead/vendors-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NataliaBeckstead/vendors-backend/issues"
+  },
+  "homepage": "https://github.com/NataliaBeckstead/vendors-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
