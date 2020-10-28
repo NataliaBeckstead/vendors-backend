@@ -8,7 +8,7 @@ exports.up = function(knex) {
             tbl.text("email").notNullable();
             tbl.text("password").notNullable();
             tbl.text("broker").notNullable().index();
-            tbl.integer("phone").notNullable();
+            tbl.text("phone").notNullable();
             tbl.text("role").defaultTo("vendor").notNullable();
         })
         .createTable("items", (tbl) => {

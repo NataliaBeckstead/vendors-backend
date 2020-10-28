@@ -1,12 +1,6 @@
-const express = require('express');
+require('dotenv').config();
 
-const server = express();
-server.use(express.json());
+const server = require('./api/server.js');
 
-server.get('/', (req, res) => {
-    res.send('hello')
-});
-
-const port = 8000;
-
-server.listen(port, () => console.log(`\n == API running on port ${port} == \n`))
+const port = process.env.PORT || 5000;
+server.listen(port, () => console.log(`\n** server is running on port ${port} **\n`));
